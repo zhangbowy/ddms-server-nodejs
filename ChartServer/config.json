@@ -1,0 +1,42 @@
+{
+    "port": 16011,
+    "serverid": "C011",
+    "type": "cts",
+    "plt": "none",
+    "flags": {
+        "log level": 4,
+        "heartbeat interval": 5,
+        "close timeout": 10,
+        "reconnection delay": 1
+    },
+    "DBManager": {
+        "nodes": [{
+                "host": "192.168.0.3",
+                "port": 9001
+            },
+            {
+                "host": "192.168.0.3",
+                "port": 9002
+            },
+            {
+                "host": "192.168.0.3",
+                "port": 9003
+            }
+        ],
+        "select": 0,
+        "flag": {
+            "auth_pass": "swdccidfqisadhudgahfioewruqjaisdadjqoj"
+        }
+    },
+    "lsMgr": {
+        "url1": "http://192.168.0.3:17001",
+        "url": "http://127.0.0.1:17001"
+    },
+    "debug": true,
+    "global": {
+        "global1": "wx+oppo",
+        "global2": "wx2+4399+huawei+xiaomi+tt+swan",
+        "global3": "hupu+vivo+qq"
+    }
+    
+}

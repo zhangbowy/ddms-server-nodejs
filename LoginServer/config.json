@@ -1,0 +1,37 @@
+{
+  "appkey": "fbc92a323bce41a698018a247a1f11",
+  "appid": "1145326931",
+  "id": "L002",
+  "netMgr": {
+    "port": 17001,
+    "flag": {
+      "log level": 4,
+      "heartbeat interval": 5,
+      "close timeout": 10,
+      "reconnection delay": 1
+    }
+  },
+  "gmMgr": {
+    "port": 17002,
+    "database": {
+      "port": 6379,
+      "ip": "192.168.0.3",
+      "select": 6,
+      "flag": {
+        "auth_pass": "swdccidfqisadhudgahfioewruqjaisdadjqoj"
+      }
+    }
+  },
+  "webAppMgr": {
+    "port": 17000
+  },
+  "logMgr": {
+    "path": "./logs/"
+  },
+  "payInfo": {
+    "call_back_url": "https://www.shandw.com/mobile/details.html?",
+    "merchant_url": "https://www.shandw.com/mobile/details.html?"
+  },
+  "webhost": "*",
+  "local": true
+}

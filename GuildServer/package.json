@@ -1,0 +1,14 @@
+{
+  "name": "cloudserver",
+  "version": "0.0.0",
+  "description": "Example",
+  "main": "WebApp.js",
+  "author": {
+    "name": "forevernodejs.cn",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "",
+    "node-gyp":""
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "body-parser": "registry:npm/body-parser#1.15.2+20160815132839"
+  }
+}

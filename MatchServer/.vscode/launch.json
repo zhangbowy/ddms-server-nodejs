@@ -1,0 +1,101 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.3",
+            "address": "192.168.0.3",
+            "port": 11004,
+            "localRoot": "${workspaceFolder}/bin/",
+            "remoteRoot": "/home/ddms/ddms_server/ddms_match/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.3_global",
+            "address": "192.168.0.3",
+            "port": 11014,
+            "localRoot": "${workspaceFolder}/bin/",
+            "remoteRoot": "/home/ddms/ddms_server/ddms_global"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.15",
+            "address": "192.168.0.15",
+            "port": 9306,
+            "localRoot": "${workspaceFolder}/bin/",
+            "remoteRoot": "/data/ddms/ddms_match/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "58.87.64.239",
+            "address": "58.87.64.239",
+            "port": 11005,
+            "localRoot": "${workspaceFolder}/bin/",
+            "remoteRoot": "/home/chenhaoxiang/ddms/zlzy/ddms_match/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.15_global_all",
+            "address": "192.168.0.15",
+            "port": 11015,
+            "localRoot": "${workspaceFolder}/bin/",
+            "remoteRoot": "/data/ddms/ddms_global_all/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.15_global",
+            "address": "192.168.0.15",
+            "port": 11014,
+            "localRoot": "${workspaceFolder}/bin/",
+            "remoteRoot": "/data/ddms/ddms_global/"
+        },
+        {
+            "name": "启动",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/app.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/bin/**/*.js"
+            ]
+        },
+        {
+            "name": "附加localhost",
+            "type": "node",
+            "request": "attach",
+            "port": 11003,
+            "address": "localhost",
+            "localRoot": "${workspaceRoot}/bin",
+            "remoteRoot": "${workspaceRoot}/bin"
+        },
+        {
+            "name": "附加到进程",
+            "type": "node",
+            "request": "attach",
+            "processId": "${command:PickProcess}",
+            "port": 5858,
+            "sourceMaps": false,
+            "outFiles": [
+                "${workspaceRoot}/bin/**/*.js"
+            ]
+        }
+    ]
+}

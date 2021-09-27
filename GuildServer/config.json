@@ -1,0 +1,57 @@
+{
+    "dbconf": {
+        "nodes": [{
+                "host": "192.168.0.3",
+                "port": 9001
+            },
+            {
+                "host": "192.168.0.3",
+                "port": 9002
+            },
+            {
+                "host": "192.168.0.3",
+                "port": 9003
+            }
+        ],
+        "select": 0,
+        "flag": {
+            "password1": "dmgkn0daDbL601s",
+            "auth_pass": "swdccidfqisadhudgahfioewruqjaisdadjqoj"
+        }
+    },
+    "serverid": "M011",
+    "listenport": 18100,
+    "listenflags": {
+        "log level": 4,
+        "heartbeat interval": 5,
+        "close timeout": 10,
+        "reconnection delay": 1
+    },
+    "update": true,
+    "match_num": 2,
+    "pvp_score_range": 100,
+    "lsMgr": {
+        "url1": "http://192.168.0.3:17001",
+        "url": "http://127.0.0.1:17001"
+    },
+    "friend_mysql": {
+        "user": "root",
+        "password": "root",
+        "database": "friend_155",
+        "charset": "UTF8_GENERAL_CI",
+        "host": "192.168.0.3",
+        "port": 3306,
+        "connectTimeout": 10000,
+        "timezone": "local"
+    },
+    "log_mysql": {
+        "user": "root",
+        "password": "root",
+        "database": "ddmslog",
+        "charset": "UTF8_GENERAL_CI",
+        "host": "192.168.0.3",
+        "port": 3306,
+        "connectTimeout": 10000,
+        "timezone": "local"
+    }
+}

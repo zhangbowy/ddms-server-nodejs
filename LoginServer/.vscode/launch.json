@@ -1,0 +1,63 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "attach 127.0.0.1",
+            "address": "127.0.0.1",
+            "port": 11001,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "${workspaceFolder}/bin"
+        },          
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.3",
+            "address": "192.168.0.3",
+            "port": 11001,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/home/ddms/ddms_server/ddms_login"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.15",
+            "address": "192.168.0.15",
+            "port": 9019,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/data/ddms/ddms_login"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.9",
+            "address": "192.168.0.9",
+            "port": 9019,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "D:/node/ddms/ddms_login"
+        },      
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "hago正式服",
+            "address": "47.74.242.208",
+            "port": 900511111,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/data/server/ddms_login"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "启动程序",
+            "program": "${workspaceFolder}/app.ts",
+            // "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/bin/**/*.js"
+            ]
+        }
+    ]
+}
