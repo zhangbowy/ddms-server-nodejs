@@ -1,0 +1,15 @@
+{
+  "port": 19003,
+  "serverid": "R013",
+  "serverip": "127.0.0.1",
+  "flags": {
+    "log level": 4,
+    "heartbeat interval": 5,
+    "close timeout": 10,
+    "reconnection delay": 12
+  },
+  "matchMgr": {
+    "url1": "http://192.168.0.3:8100",
+    "url": "http://127.0.0.1:18100"
+  }
+}

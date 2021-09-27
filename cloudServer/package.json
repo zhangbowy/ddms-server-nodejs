@@ -1,0 +1,31 @@
+{
+  "name": "cloudserver",
+  "version": "1.0.0",
+  "description": "怼怼三国的逻辑服",
+  "main": "app.js",
+  "author": "dreamduke.com",
+  "dependencies": {
+    "@types/ioredis": "^4.0.10",
+    "@types/socket.io": "^2.1.2",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/ws": "^5.1.2",
+    "ioredis": "^4.9.0",
+    "jsonpb": "^1.0.1",
+    "mysql": "2.13.0",
+    "redis": "2.6.0",
+    "socket.io": "1.4.5",
+    "ws": "^5.2.1"
+  },
+  "bin": {
+    "cloudserver": "app.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "logic"
+  ],
+  "license": "ISC"
+}

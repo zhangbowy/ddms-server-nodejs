@@ -1,0 +1,7 @@
+内网几个服务器的地址 和 密码
+怼怼主服务器：192.168.0.3 ddmsUnkwD		linux
+怼怼版本发布服务器：192.168.0.9 dianhun.123		windows
+怼怼测试服务器：192.168.0.15 123.123	linux
+gitlab root密码 12345678	在192.168.0.3上
+grafana 账号:dev-ddms    密码:Ddms!@#456 url:http://h5wz.watch.11ops.com:81/?orgId=1
+gm工具 账号：陈凯0113	密码：cWscisnPsd125483sdaw

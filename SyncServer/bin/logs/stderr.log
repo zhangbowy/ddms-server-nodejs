@@ -1,0 +1,24 @@
+2021-03-16 10:40 +08:00: Debugger listening on ws://127.0.0.1:11005/3e65dbd2
+2021-03-16 10:40 +08:00: -1770-44b7-b39d-68beaabb6084
+2021-03-16 10:40 +08:00: For help, see: https://nodejs.org/en/docs/inspector
+2021-03-16 10:40 +08:00: 2021-03-16T02:40:29.094Z
+2021-03-16 10:40 +08:00: Error: ENOENT: no such file or directory, scandir './syncconf/'
+2021-03-16 10:40 +08:00:     at Object.readdirSync (fs.js:854:3)
+2021-03-16 10:40 +08:00:     at checkConf (D:\project\dh\ddms\trunk\Servers\SyncServer\app.ts:82:19)
+2021-03-16 10:40 +08:00:     at Object.<anonymous> (D:\project\dh\ddms\trunk\Servers\SyncServer\app.ts:26:5)
+2021-03-16 10:40 +08:00:     at Module._compile (internal/modules/cjs/loader.js:956:30)
+2021-03-16 10:40 +08:00:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+2021-03-16 10:40 +08:00:     at Module.load (internal/modules/cjs/loader.js:812:32)
+2021-03-16 10:40 +08:00:     at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+2021-03-16 10:40 +08:00:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2021-03-16 10:40 +08:00:     at Module._compile (internal/modules/cjs/loader.js:956:30)
+2021-03-16 10:40 +08:00:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+2021-03-16 10:40 +08:00:     at Module.load (internal/modules/cjs/loader.js:812:32)
+2021-03-16 10:40 +08:00:     at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+2021-03-16 10:40 +08:00:     at Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)
+2021-03-16 10:40 +08:00:     at internal/main/run_main_module.js:17:11 {
+2021-03-16 10:40 +08:00:   errno: -4058,
+2021-03-16 10:40 +08:00:   syscall: 'scandir',
+2021-03-16 10:40 +08:00:   code: 'ENOENT',
+2021-03-16 10:40 +08:00:   path: './syncconf/'
+2021-03-16 10:40 +08:00: }

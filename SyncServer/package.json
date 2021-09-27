@@ -1,0 +1,14 @@
+{
+  "name": "syncserver",
+  "version": "0.0.0",
+  "description": "Example",
+  "main": "app.js",
+  "author": {
+    "name": "forevernodejs.cn"
+  },
+  "dependencies": {
+    "@types/ioredis": "^3.2.13",
+    "ioredis": "^3.2.2",
+    "mysql": "^2.16.0"
+  }
+}

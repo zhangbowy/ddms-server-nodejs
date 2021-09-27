@@ -1,0 +1,64 @@
+{
+  "cheatmode": true,
+  "port": 16004,
+  "serverid": "W146",
+  "host": "192.168.0.35:16004",
+  "type": "cls",
+  "plt":"notest",
+  "language": "CN",
+  "ssMgr1": {
+    "url": "http://192.168.0.3:18001",
+    "url2": "http://127.0.0.1:19001"    
+  },
+  "flags": {
+    "log level": 4,
+    "heartbeat interval": 5,
+    "close timeout": 10,
+    "reconnection delay": 12
+  },
+  "lsMgr": {
+    "url": "http://192.168.0.3:17001",
+    "url1": "http://127.0.0.1:17001"
+  },
+  "DBManager": {
+    "ip": "192.168.0.3",
+    "port": 6379,
+    "select": 15,
+    "flag": {
+      "password1": "dmgkn0daDbL601s",
+      "auth_pass":"swdccidfqisadhudgahfioewruqjaisdadjqoj"
+    }
+  },
+  "matchMgr": {
+    "url1": "http://192.168.0.3:8100",
+    "url": "http://127.0.0.1:18100"
+  },
+  "globalMgr": {
+    "url1": "http://192.168.0.3:9200",
+    "url": "http://127.0.0.1:19200"
+  },
+  "logMgr": {
+    "url": "http://127.0.0.1:8100",
+    "path": "./logs/",
+    "threepath": "./threepaths/"
+  },
+  "csMgr": {
+    "url": "http://192.168.0.3:6011",
+    "url1": "http://127.0.0.1:16011"
+  },
+  "globalCsMgr": {
+    "url": "http://192.168.0.3:6011",
+    "url1": "http://127.0.0.1:16011"
+  },
+  "usemysql": false,
+  "mysql": {
+    "user": "root",
+    "password": "root",
+    "database": "gameinfo",
+    "charset": "UTF8_GENERAL_CI",
+    "host": "192.168.0.3",
+    "port": 3306,
+    "connectTimeout": 10000,
+    "timezone": "local"
+  }
+}

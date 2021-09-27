@@ -1,0 +1,174 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.3_sdw",
+            "address": "192.168.0.3",
+            "port": 11006,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/home/ddms/ddms_server/ddms_game3/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "体验服",
+            "address": "58.87.64.239",
+            "port": 16013,
+            "localRoot": "${workspaceFolder}/bin/",
+            "remoteRoot": "/home/chenhaoxiang/ddms/ddms_game2/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.3_qzone",
+            "address": "192.168.0.3",
+            "port": 11005,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/home/ddms/ddms_server/ddms_game2/"
+        },
+        
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.3_spec",
+            "address": "192.168.0.13",
+            "port": 9229,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/home/ddms/ddms_server/ddms_game4/"
+        },
+
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "47.74.242.208_hago正式服",
+            "address": "47.74.242.208",
+            "port": 90061111111,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/data/server/ddms_game1"
+        },
+
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.15_tap",
+            "address": "192.168.0.15",
+            "port": 9004,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/data/ddms/ddms_game4/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.9",
+            "address": "192.168.0.9",
+            "port": 9903,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "D:/node/ddms/ddms_game_wx"
+        },{
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.15",
+            "address": "192.168.0.15",
+            "port": 9002,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/data/ddms/ddms_game3/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.15_qzone",
+            "address": "192.168.0.15",
+            "port": 9115,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/data/ddms/ddms_game5/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.15_hago",
+            "address": "192.168.0.15",
+            "port": 9001,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/data/ddms/ddms_game2/"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "192.168.0.15_wx3",
+            "address": "192.168.0.15",
+            "port": 9004,
+            "localRoot": "${workspaceFolder}/bin",
+            "remoteRoot": "/data/ddms/ddms_game4/"
+        },
+        {
+            "name": "启动",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/app.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development",
+                "DEBUG":"jsonpb"
+               
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/bin/**/*.js"
+            ]
+        },
+        {
+            "name": "启动2",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/app.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development",
+                "DEBUG":"jsonpb"
+               
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/bin/**/*.js"
+            ]
+        },
+        {
+            "name": "附加localhost",
+            "type": "node",
+            "request": "attach",
+            "port": 11004,
+            "address": "localhost",
+            "localRoot": "${workspaceRoot}/bin",
+            "remoteRoot": "${workspaceRoot}/bin"
+        },
+        {
+            "name": "附加到进程",
+            "type": "node",
+            "request": "attach",
+            "processId": "${command:PickProcess}",
+            "port": 5858,
+            "sourceMaps": false,
+            "outFiles": [
+                "${workspaceRoot}/bin/**/*.js"
+            ]
+        }
+    ]
+}
